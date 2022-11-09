@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Uteq\LaravelInnaxApi\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelInnaxApiCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-innax-api';
 
     public $description = 'My command';
 

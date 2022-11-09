@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "uteq/laravel-innax-api",
+    "description": "This is my package laravel-innax-api",
     "keywords": [
-        ":vendor_name",
+        "uteq",
         "laravel",
-        ":package_slug"
+        "laravel-innax-api"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/uteq/laravel-innax-api",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Jesse Hendriks",
+            "email": "info@jessehendriks.nl",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Uteq\\LaravelInnaxApi\\": "src",
+            "Uteq\\LaravelInnaxApi\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Uteq\\LaravelInnaxApi\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Uteq\\LaravelInnaxApi\\LaravelInnaxApiServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelInnaxApi": "Uteq\\LaravelInnaxApi\\Facades\\LaravelInnaxApi"
             }
         }
     },
