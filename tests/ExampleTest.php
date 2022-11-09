@@ -1,8 +1,8 @@
 <?php
 
+use function Pest\Laravel\artisan;
 use Symfony\Component\Console\Command\Command;
 use Uteq\LaravelInnaxApi\Commands\LaravelInnaxApiCommand;
-use function Pest\Laravel\artisan;
 
 it('can test', function () {
     dd(config('database'));
