@@ -1,4 +1,5 @@
-# This is my package laravel-innax-api
+# Laravel Innax API
+> Laravel package that will retrieve and store the Innax data.
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/uteq/laravel-innax-api.svg?style=flat-square)](https://packagist.org/packages/uteq/laravel-innax-api)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/uteq/laravel-innax-api/run-tests?label=tests)](https://github.com/uteq/laravel-innax-api/actions?query=workflow%3Arun-tests+branch%3Amain)
